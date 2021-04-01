@@ -1,0 +1,19 @@
+{
+  "name": "javascript-algorithms",
+  "version": "1.0.0",
+  "description": "Relearning classic algorithms with JavaScript",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HenriqueSilverio/javascript-algorithms.git"
+  },
+  "author": "Henrique Silvério",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  }
+}
