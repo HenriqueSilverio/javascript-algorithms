@@ -21,4 +21,4 @@ const selectionSort = (list = []) => {
   return list
 }
 
-console.log(selectionSort([1, 4, 3, 0, 2]))
+export default selectionSort

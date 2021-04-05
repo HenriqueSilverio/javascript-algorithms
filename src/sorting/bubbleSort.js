@@ -1,14 +1,12 @@
 /**
- * Bubble sort, sometimes referred to as sinking sort, is a
- * simple sorting algorithm that repeatedly steps through the list,
- * compares adjacent elements and swaps them if they are in the wrong order.
- * The pass through the list is repeated until the list is sorted.
+ * Bubble Sort
  * https://en.wikipedia.org/wiki/Bubble_sort
  */
 
-const sort = (list = []) => {
-  let swapped = false
+const bubbleSort = (list = []) => {
+  let swapped
   do {
+    swapped = false
     for (let i = 0; i < list.length; i++) {
       const left = list[i]
       const right = list[i + 1]
@@ -22,4 +20,4 @@ const sort = (list = []) => {
   return list
 }
 
-console.log(sort([1, 4, 3, 0, 2]))
+export default bubbleSort

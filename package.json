@@ -2,6 +2,7 @@
   "name": "javascript-algorithms",
   "version": "1.0.0",
   "description": "Relearning classic algorithms with JavaScript",
+  "type": "module",
   "main": "./src/index.js",
   "repository": {
     "type": "git",
